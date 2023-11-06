@@ -9,7 +9,7 @@
         <q-separator inset />
         <q-card-section>
           <div class="text-h6 q-px-sm q-pb-sm">
-            <a :href="`/#/article/${article.path}`">{{ article.title }}</a>
+            <a :href="`/article/${article.path}`">{{ article.title }}</a>
           </div>
           <div class="text-body1 q-px-sm q-pb-sm">
             {{ article.content }}
@@ -30,7 +30,7 @@
         <q-item>
           <q-item-section avatar>
             <q-avatar>
-              <q-img src="https://blog.jimmyholoveslife.cn/usr/uploads/2022/06/3312055002.jpg" />
+              <img alt="Jimmy的头像" src="https://blog.jimmyholoveslife.cn/usr/uploads/2022/06/3312055002.jpg" />
             </q-avatar>
           </q-item-section>
           <q-item-section>
@@ -48,7 +48,7 @@
         <q-item>
           <q-item-section avatar>
             <q-avatar>
-              <q-img src="https://secure.gravatar.com/avatar/8a7f9b994b532a4e7e9636e8f88b1dcc?s=200&r=G" />
+              <img src="https://secure.gravatar.com/avatar/8a7f9b994b532a4e7e9636e8f88b1dcc?s=200&r=G" alt="SAGIRI的头像">
             </q-avatar>
           </q-item-section>
           <q-item-section>
