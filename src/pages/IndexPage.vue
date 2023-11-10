@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-h4">主页</div>
-    <q-card flat class="bg-grey-2 q-my-md">
+    <q-card flat class="bg-grey-2 q-my-md round-radius">
       <q-card-section class="text-h5">
         最近文章
       </q-card-section>
@@ -21,7 +21,17 @@
         </q-card-section>
       </template>
     </q-card>
-    <q-card flat class="bg-grey-2 q-my-md">
+    <q-card flat class="bg-grey-2 q-my-md round-radius">
+      <q-card-section class="text-h5">
+        留言板
+      </q-card-section>
+      <q-separator inset />
+      <q-card-section>
+        <q-btn unelevated rounded color="blue" icon="forum" label="查看留言" to="/comments" class="q-mr-sm" />
+        <q-btn unelevated rounded color="black" label="前往Github留言" href="https://github.com/arect/personal_page/issues/new" />
+      </q-card-section>
+    </q-card>
+    <q-card flat class="bg-grey-2 q-my-md round-radius">
       <q-card-section class="text-h5">
         友链
       </q-card-section>
@@ -48,7 +58,7 @@
         <q-item>
           <q-item-section avatar>
             <q-avatar>
-              <img src="https://secure.gravatar.com/avatar/8a7f9b994b532a4e7e9636e8f88b1dcc?s=200&r=G" alt="SAGIRI的头像">
+              <img src="https://blog.jimmyholoveslife.cn/usr/uploads/2022/07/4284623754.jpg" alt="SAGIRI的头像">
             </q-avatar>
           </q-item-section>
           <q-item-section>
@@ -85,5 +95,9 @@ const recentArticles = articles.slice(0, 5)
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.round-radius {
+  border-radius: 12px
 }
 </style>
