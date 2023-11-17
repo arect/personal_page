@@ -27,8 +27,8 @@
       </q-card-section>
       <q-separator inset />
       <q-card-section>
-        <q-btn unelevated rounded color="blue" icon="forum" label="查看留言" to="/comments" class="q-mr-sm" />
-        <q-btn unelevated rounded color="black" label="前往Github留言" href="https://github.com/arect/personal_page/issues/new" />
+        <q-btn unelevated rounded color="blue" icon="forum" label="查看留言" to="/comments" class="m3-button q-mr-sm" />
+        <q-btn unelevated rounded color="black" label="前往Github留言" class="m3-button" href="https://github.com/arect/personal_page/issues/new" />
       </q-card-section>
     </q-card>
     <q-card flat class="bg-grey-2 q-my-md round-radius">
@@ -99,5 +99,11 @@ a {
 
 .round-radius {
   border-radius: 12px
+}
+
+.m3-button {
+  height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 </style>
