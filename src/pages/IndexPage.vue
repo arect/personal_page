@@ -2,6 +2,11 @@
   <div>
     <div class="text-h4">主页</div>
     <q-card flat class="bg-grey-2 q-my-md round-radius">
+      <q-card-section>
+          &emsp;&emsp;我们通过使用 Microsoft Clarity 来了解您如何使用我们的网站来改进我们的页面。使用我们的网站，即表示您同意我们和 Microsoft 可以收集和使用这些数据。
+      </q-card-section>
+    </q-card>
+    <q-card flat class="bg-grey-2 q-my-md round-radius">
       <q-card-section class="text-h5">
         最近文章
       </q-card-section>
