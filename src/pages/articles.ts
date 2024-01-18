@@ -18,6 +18,12 @@ const articles: ArticleInformation[] = [{
   tag: ['Go'],
   content: '在内网开发的时候没有网络，包可以从外网下，go list咋办呢？',
   path: 'golang_dev_without_network'
+}, {
+  title: '把笔记本上的截图键改成第三方',
+  time: '2024-01-18',
+  tag: ['FuxkLenovo'],
+  content: '联想为什么就那么喜欢在笔记本键盘上塞没用的按键呢？塞一个客服键我忍了，还把Windows的截图和PrtSc放一起？',
+  path: 'use_snipaste_instead_snip_tool'
 }]
 
 export {

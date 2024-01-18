@@ -18,6 +18,9 @@ const routes: RouteRecordRaw[] = [
     }, {
       path: 'golang_dev_without_network',
       component: () => import('pages/2/ArticlePage.vue')
+    }, {
+      path: 'use_snipaste_instead_snip_tool',
+      component: () => import('pages/3/ArticlePage.vue')
     }]
   },
   {
