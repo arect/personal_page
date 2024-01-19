@@ -10,4 +10,4 @@
 
 如果想恢复原本的按键，就必须舍弃音量调节、亮度调节这样的功能（功能键变成fn键）。
 
-所以我掏出了PowerToys，把联想的截图键，也就是`Win`+`Shift`+`S`映射成`PrtSc`，然后再让`Snipaste`绑定`PrtSc`，完成。
+所以我掏出了PowerToys，把微软的截图快捷键/联想自定义的快捷键，也就是`Win`+`Shift`+`S`映射成`PrtSc`，然后再让`Snipaste`绑定`PrtSc`，完成。
