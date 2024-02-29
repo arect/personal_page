@@ -21,6 +21,9 @@ const routes: RouteRecordRaw[] = [
     }, {
       path: 'use_snipaste_instead_snip_tool',
       component: () => import('pages/3/ArticlePage.vue')
+    }, {
+      path: 'finally_installed_chrome_at_my_office_computer',
+      component: () => import('pages/4/ArticlePage.vue')
     }]
   },
   {

@@ -24,6 +24,12 @@ const articles: ArticleInformation[] = [{
   tag: ['FuxkLenovo'],
   content: '联想为什么就那么喜欢在笔记本键盘上塞没用的按键呢？塞一个客服键我忍了，还把Windows的截图和PrtSc放一起？',
   path: 'use_snipaste_instead_snip_tool'
+}, {
+  title: '浏览器安装报错0x8004070c',
+  time: '2024-02-29',
+  tag: ['Chrome', 'Windows'],
+  content: '在公司电脑里面安装Chrome一直失败，强迫症在忍了大半年之后，意外发现解决办法，下一回：来袭！Chrome！',
+  path: 'finally_installed_chrome_at_my_office_computer'
 }]
 
 export {
