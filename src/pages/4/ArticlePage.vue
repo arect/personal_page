@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import a from 'content.md'
+import a from 'page/4/content.md'
 </script>
 
 <style scoped>
